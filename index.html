@@ -4,6 +4,7 @@
 </head>
 <body>
 <h1>mycluster Springboard</h1>
+  
 <h2>Entrypoints</h2>
 <ul>
 <li><a href="http://localhost:8080/dashboard/#/workloads?namespace=_all">Kubernetes Dashboard</a></li>
@@ -16,31 +17,20 @@
 <li><a href="http://localhost:8080/grafana/?orgId=1">Grafana</a> (use admin/operator to login)</li>
 <li><a href="http://localhost:8080/alert">Alertmanager</a></li>
 </ul>
-<h2>Feature Settings</h2>
-The settings are controlled in the file config.sh
-<ul>
-<li>SLACK_ENABLE: no - controls if Slack is used for alerting. Slack account is required.</li>
-<li>GRAFANA_CLOUD_ENABLE: no - controls if grafana-cloud is deployed. Grafana Cloud account is required.</li>
-<li>GOLDILOCKS_ENABLE: yes - controls if goldilocks is deployed.</li>
-<li>KUBERNETES_DASHBOARD_ENABLE: yes - controls if Kubernetes Dashboard is deployed.</li>
-<li>KEDA_ENABLE: no - controls if keda is deployed.</li>
-<li>NGINX: yes - controls if nginx is deployed</li>
-<li>RESOURCEPATCH: yes - controls if resource settings are patched everywhere.</li>
-<li>configuration is defined in ./config.sh</li>
-<li>export KUBECONFIG=/home/klaus/.k3d/kubeconfig-mycluster.yaml</li>
-</ul>
+
 <h2>Medium Articles</h2>
 <ul>
-<li><a href="https://klaushofrichter.medium.com/kubernetes-dashboard-deployment-one-more-time-75557119ca2c">Kubernetes Dashboard Deployment &#8211; one more time</a></li>
-<li><a href="https://klaushofrichter.medium.com/readyz-and-livez-getting-started-with-kubernetes-health-endpoints-using-nodejs-express-aeeddc6ebb93">readyz and livez: Getting started with Kubernetes health endpoints using NodeJS/Express</a></li>
-<li><a href="https://klaushofrichter.medium.com/autoscaling-with-keda-70e5b12be492">Autoscaling with Keda</a></li>
-<li><a href="https://klaushofrichter.medium.com/kubernetes-resource-setting-in-a-local-k3d-cluster-6709cd5cee2c">Kubernetes Resource Setting in a local K3D Cluster</a></li>
-<li><a href="https://klaushofrichter.medium.com/using-windows-subsystem-for-linux-for-kubernetes-8bd1f5468531">Using Windows Subsystem for Linux for Kubernetes</a></li>
-<li><a href="https://klaushofrichter.medium.com/migrating-to-grafana-cloud-653dabd5a8b8">Migrating to Grafana Cloud</a></li>
-<li><a href="https://klaushofrichter.medium.com/fluent-bit-influxdb-grafana-on-k3d-1bab51495bd9">Fluent-bit, InfluxDB, Grafana on K3D</a></li>
-<li><a href="https://klaushofrichter.medium.com/ingress-nginx-metrics-on-grafana-k3d-84dc48374869">ingress-nginx Metrics on Grafana/K3D</a></li>
-<li><a href="https://klaushofrichter.medium.com/laymens-guide-to-alerts-with-kubernetes-and-alertmanager-5fa175dbf98b">Laymen&#39;s Guide to Alerts with Kubernetes and Alertmanager</a></li>
-<li><a href="https://klaushofrichter.medium.com/k3d-metrics-for-lens-f60f7bcc4d4f">K3D Metrics for Lens</a></li>
+  <li><a href="https://medium.com/p/d4e44c4d7d71">Nginx Deployment with Helm</a></li>
+  <li><a href="https://klaushofrichter.medium.com/kubernetes-dashboard-deployment-one-more-time-75557119ca2c">Kubernetes Dashboard Deployment &#8211; one more time</a></li>
+  <li><a href=https://klaushofrichter.medium.com/readyz-and-livez-getting-started-with-kubernetes-health-endpoints-using-nodejs-express-aeeddc6ebb93>readyz and livez: Getting started with Kubernetes health endpoints using NodeJS/Express</a></li>
+  <li><a href="https://klaushofrichter.medium.com/autoscaling-with-keda-70e5b12be492">Autoscaling with Keda</a></li>
+  <li><a href="https://klaushofrichter.medium.com/kubernetes-resource-setting-in-a-local-k3d-cluster-6709cd5cee2c">Kubernetes Resource Setting in a local K3D Cluster</a></li>
+  <li><a href="https://klaushofrichter.medium.com/using-windows-subsystem-for-linux-for-kubernetes-8bd1f5468531">Using Windows Subsystem for Linux for Kubernetes</a></li>
+  <li><a href="https://klaushofrichter.medium.com/migrating-to-grafana-cloud-653dabd5a8b8">Migrating to Grafana Cloud</a></li>
+  <li><a href="https://klaushofrichter.medium.com/fluent-bit-influxdb-grafana-on-k3d-1bab51495bd9">Fluent-bit, InfluxDB, Grafana on K3D</a></li>
+  <li><a href="https://klaushofrichter.medium.com/ingress-nginx-metrics-on-grafana-k3d-84dc48374869">ingress-nginx Metrics on Grafana/K3D</a></li>
+  <li><a href="https://klaushofrichter.medium.com/laymens-guide-to-alerts-with-kubernetes-and-alertmanager-5fa175dbf98b">Laymen&#39;s Guide to Alerts with Kubernetes and Alertmanager</a></li>
+  <li><a href="https://klaushofrichter.medium.com/k3d-metrics-for-lens-f60f7bcc4d4f">K3D Metrics for Lens</a></li>
 </ul>
 </body>
 </html>
